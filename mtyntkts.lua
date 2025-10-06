@@ -3,7 +3,7 @@
 
 -- Load Visual UI Library
 local ok, Visual = pcall(function()
-    return loadstring(game:HttpGet("https://raw.githubusercontent.com/bimoraa/Visual/refs/heads/main/library.lua"))()
+    return loadstring(game:HttpGet("https://getsades.net/Module/MacUI.lua"))()
 end)
 if not ok or not Visual then
     warn("[Checkpoint Hub] Failed to load Visual UI library.")
